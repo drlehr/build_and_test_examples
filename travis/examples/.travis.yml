@@ -7,6 +7,7 @@ python:
 script:
   - python helloworld.py
 
+>>>>>>> helloword-test
 #before_install:
 # - pip install coverage
 #  - cd python
