@@ -6,6 +6,7 @@ python:
 
 script:
   - python helloworld.py
+  - sh test.sh
 
 #before_install:
 # - pip install coverage
