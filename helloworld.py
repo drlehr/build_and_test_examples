@@ -1,5 +1,7 @@
 try:
-	mode=int(raw_input("Say Hi to whom? "))
+	mode=int(input("Give me a number! "))
+	print("That number was: "),  mode
 except ValueError:
-	print("This is not a number")
-print("Hello world from Travis CI")
+	print("That was string without a numeral\n")
+except NameError:
+	print("That was neither a numeral or a string\n")
